@@ -88,6 +88,7 @@
             this.columnHeader2,
             this.columnHeader3,
             this.columnHeader4});
+            this.lv_info.FullRowSelect = true;
             this.lv_info.Location = new System.Drawing.Point(12, 110);
             this.lv_info.Name = "lv_info";
             this.lv_info.Size = new System.Drawing.Size(280, 140);
@@ -164,7 +165,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(304, 262);
+            this.ClientSize = new System.Drawing.Size(304, 270);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.lv_info);
             this.Controls.Add(this.btn_Start);

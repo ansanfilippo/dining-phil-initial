@@ -218,6 +218,7 @@ namespace WindowsFormsApplication1
                 {
                     Status = "Waiting";
                     ForkStatus = "R: " + leftFork.forkID;
+          
                     Thread.Sleep(new Random(DateTime.Now.Millisecond).Next(0, (int)(500 * pDelay)));
                     if (leftFork.holder != Thread.CurrentThread)
                     {
